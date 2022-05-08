@@ -1,0 +1,59 @@
+<!--Phone dimensions {394x853}-->
+<div class="phone-content">
+    <h2>Beebop</h2>
+    <button class="usr-but" routerLink="/phone/Settings"></button>
+    <span id="line"></span>
+
+    <div id="page">
+        <div class="homescr">
+            <div class="jbi">
+                <p class="jmp">Jump Back In</p>
+                <div id="playlists">
+                    <button class="p1" routerLink="/phone/Playlistview" >Playlist 1</button>
+                    <button class="i1"></button>
+                    <button class="p2" routerLink="/phone/Playlistview">Playlist 2</button>
+                    <button class="i2"></button>
+                    <button class="p3" routerLink="/phone/Playlistview">Playlist 3</button>
+                    <button class="i3"></button>
+                    <button class="p4" routerLink="/phone/Playlistview">Playlist 4</button>
+                    <button class="i4"></button>
+                    <button class="p5" routerLink="/phone/Playlistview">Playlist 5</button>
+                    <button class="i5"></button>
+                    <button class="p6" routerLink="/phone/Playlistview">Playlist 6</button>
+                    <button class="i6"></button>
+                </div>
+                <span id="line1"></span>
+            </div>
+        
+            <div class="albums">
+                <div class="slider1">
+                    <p class="alb">Albums</p>
+                    <button class="a1"></button>
+                    <button class="a2"></button>
+                    <button class="a3"></button>
+                    <button class="a4"></button>
+                    <span id="line2"></span>
+                </div>
+            </div>
+        
+            <div class="rec">
+                <p class="recommended">Recommended</p>
+                <button class="r1"></button>
+                <button class="r2"></button>
+                <button class="r3"></button>
+                <button class="r4"></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="controls">
+    <div id="slider">
+        <ami-slider></ami-slider>
+    </div>
+    <div id="ctrl" class="controls d-flx d-flx-row flx-lgnx-center flx-lgny-center">
+        <ami-fab class="flipy" [size]="'small'" [icon_path]="'assets/MediaNext.png'"></ami-fab>
+        <ami-fab id="play" [icon_path]="'assets/MediaPlay.png'" (click)="togglepPlay()"></ami-fab>
+        <ami-fab [size]="'small'" [icon_path]="'assets/MediaNext.png'"></ami-fab>
+    </div>
+</div>

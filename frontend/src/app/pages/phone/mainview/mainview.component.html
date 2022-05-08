@@ -1,0 +1,21 @@
+<h2>Beebop</h2>
+        <button class="usr-but" routerLink="/phone/Settings"></button>
+        <span id="line"></span>
+
+        <button id="playlist" routerLink="/phone/Playlistview">Playlist</button>
+        <div id="logo"></div>
+        <p id="songname">A very bad song</p>
+        <p id="songname2">But a really cool band</p>
+
+        <button id="love" (click)="lovebuttonInteraction('love')"></button>
+        <button id="plus" (click)="plusbuttonInteraction('plus')"></button>
+        <button id="dots" routerLink="/phone/Songoptions"></button>
+
+        <div id="slider">
+            <ami-slider></ami-slider>
+        </div>
+        <div id="ctrl" class="controls d-flx d-flx-row flx-lgnx-center flx-lgny-center">
+            <ami-fab class="flipy" [size]="'small'" [icon_path]="'assets/MediaNext.png'"></ami-fab>
+            <ami-fab [icon_path]="'assets/MediaPlay.png'" (click)="togglepPlay()"></ami-fab>
+            <ami-fab [size]="'small'" [icon_path]="'assets/MediaNext.png'"></ami-fab>
+        </div>

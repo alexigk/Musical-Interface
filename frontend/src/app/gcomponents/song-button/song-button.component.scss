@@ -1,0 +1,15 @@
+h5, h6 {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+h6 {
+    overflow-x: scroll;
+    overflow-y: clip;
+}
+
+div {
+    background: inherit;
+    margin-top:     0.1em;
+    margin-bottom:  0.1em;
+}

@@ -1,0 +1,15 @@
+.player-drag {
+    display: block;
+    z-index: 1;
+    bottom: 0%;
+    left: 50%;
+    position: absolute;
+}
+
+.player-main {
+    padding: 0.3em;
+    border: 2px solid #88297E;
+    border-radius: 1em;
+    box-shadow: 0 0 10px #88297E;
+    /*transform: rotate(90deg);*/
+}

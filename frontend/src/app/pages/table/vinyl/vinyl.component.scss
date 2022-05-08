@@ -1,0 +1,28 @@
+div {
+    margin: auto;
+    position: absolute;
+    top:50%;
+    left:50%;
+    z-index: 0;
+    transform:translate(-50%, -50%);
+}
+
+img {
+    animation: vinyl-animation 3s infinite linear;  
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border-radius: 50%;
+    border: 5px solid #1b1b1b;
+    box-shadow: 0 0 5px black;
+}
+
+@keyframes vinyl-animation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,8 @@
+<div
+    (mouseover)="onHover(true)"
+    (mouseout)="onHover(false)"
+    [@isHovered]="isHovered ? 'hovered' : 'unhovered'"
+    class="no-usr-sel"
+    >
+    <img src="{{icon_path}}" class="{{size}}">
+</div>

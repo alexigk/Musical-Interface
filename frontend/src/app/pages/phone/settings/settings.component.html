@@ -1,0 +1,31 @@
+<h2>Beebop</h2>
+<button class="usr-but" (click)="goToPage('/phone/Settings')"></button>
+<span id="line"></span>
+
+
+<div class="options">
+    <button class="accs">Account Settings</button>
+    <button class="adms">Admin Settings</button>
+    <button class="pl">Playlists</button>
+    <button class="albs">Albums</button>
+    <button class="cu" routerLink="/phone/Currentusers">Current Users</button>
+    <button class="ap">[Admin] Presets</button>
+    <button class="atv">[Admin] TV Settings</button>
+</div>
+
+<div id="quicksettings">
+    <p>Quick Settings</p>
+    <button id="hg" (click)="ButtonInteractions('hg')">Hand Gestures</button>
+    <button id="vol" (click)="ButtonInteractions('vol')">Volume</button>
+    <button id="ag" (click)="ButtonInteractions('ag')">Allow Guests</button>
+    <button id="vc" (click)="ButtonInteractions('vc')">Volume Control</button>
+</div>
+
+<div id="slider">
+    <ami-slider></ami-slider>
+</div>
+<div id="ctrl" class="controls d-flx d-flx-row flx-lgnx-center flx-lgny-center">
+    <ami-fab class="flipy" [size]="'small'" [icon_path]="'assets/MediaNext.png'"></ami-fab>
+    <ami-fab [icon_path]="'assets/MediaPlay.png'"></ami-fab>
+    <ami-fab [size]="'small'" [icon_path]="'assets/MediaNext.png'"></ami-fab>
+</div>

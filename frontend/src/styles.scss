@@ -1,0 +1,70 @@
+/* You can add global styles to this file, and also import other style files */
+@import "palette.scss";
+
+html, body, div {
+    color: $pl-text;
+    background-color: $pl-background;
+}
+
+html, body {
+    height: 100vh;
+}
+
+.d-flx {
+    display: flex;
+}
+
+.flx-dir-row {
+    flex-direction: row;
+}
+
+.flx-dir-col {
+    flex-direction: column;
+}
+
+.flx-lgny-center {
+    align-items: center;
+}
+
+.flx-lgn-end {
+    align-content: flex-end;
+}
+
+.flx-stretch {
+    align-items: stretch;
+}
+
+
+.flx-lgnx-center {
+    justify-content: center;
+}
+
+.flx-slf-end {
+    margin-top: auto;
+}
+
+.flx-slf-xend {
+    margin-left: auto;
+}
+
+.flx-slf-xstart {
+    margin-right: auto;
+}
+
+.flx-slf-mid {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.flx-slf-xmid {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flipy {
+ transform: scaleX(-1);
+}
+
+.no-usr-sel {
+    user-select: none;
+}

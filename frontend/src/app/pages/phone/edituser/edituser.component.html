@@ -1,0 +1,30 @@
+<h2>Beebop</h2>
+<button class="usr-but"></button>
+<span id="line"></span>
+
+<p id="u">Edit User Rights</p>
+<span id="line1"></span>
+
+<div class="editlog">
+    <p id="name">User</p>
+    <p id="vc" >Volume Control</p>
+    <button id="vcb" (click)="ButtonInteractions('vcb')"></button>
+    <p id="qm">Queue Modification</p>
+    <button id="qmb" (click)="ButtonInteractions('qmb')"></button>
+    <p id="pc">Pause / Continue</p>
+    <button id="pcb" (click)="ButtonInteractions('pcb')"></button>
+    <p id="st">Show Track Info on Wall</p>
+    <button id="stb" (click)="ButtonInteractions('stb')"></button>
+    <p id="lt">Local Track Streaming</p>
+    <button id="ltb" (click)="ButtonInteractions('ltb')"></button>
+    <button id="save" routerLink="/phone">Save</button>
+</div>
+
+<div id="slider">
+    <ami-slider></ami-slider>
+</div>
+<div id="ctrl" class="controls d-flx d-flx-row flx-lgnx-center flx-lgny-center">
+    <ami-fab class="flipy" [size]="'small'" [icon_path]="'assets/MediaNext.png'"></ami-fab>
+    <ami-fab [icon_path]="'assets/MediaPlay.png'" (click)="togglepPlay()"></ami-fab>
+    <ami-fab [size]="'small'" [icon_path]="'assets/MediaNext.png'"></ami-fab>
+</div>

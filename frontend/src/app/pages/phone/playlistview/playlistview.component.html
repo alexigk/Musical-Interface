@@ -1,0 +1,25 @@
+<h2>Beebop</h2>
+        <button class="usr-but" routerLink="/phone/Settings"></button>
+        <span id="line"></span>
+
+        <div id="logo"></div>
+        <p id="header">Playlist</p>
+        <span id="line2"></span>
+
+        <button id="pl1" routerLink="/phone/Mainview">A really bad song<br>But a really cool band name</button>
+        <button id="pl2" routerLink="/phone/Mainview">A really bad song<br>But a really cool band name</button>
+        <button id="pl3" routerLink="/phone/Mainview">A really bad song<br>But a really cool band name</button>
+        <button id="pl4" routerLink="/phone/Mainview">A really bad song<br>But a really cool band name</button>
+        <button id="pl5" routerLink="/phone/Mainview">A really bad song<br>But a really cool band name</button>
+        <button id="pl6" routerLink="/phone/Mainview">A really bad song<br>But a really cool band name</button>
+        <button id="pl7" routerLink="/phone/Mainview">A really bad song<br>But a really cool band name</button>
+        <button id="pl8" routerLink="/phone/Mainview">A really bad song<br>But a really cool band name</button>
+
+        <div id="slider">
+            <ami-slider></ami-slider>
+        </div>
+        <div id="ctrl" class="controls d-flx d-flx-row flx-lgnx-center flx-lgny-center">
+            <ami-fab class="flipy" [size]="'small'" [icon_path]="'assets/MediaNext.png'"></ami-fab>
+            <ami-fab [icon_path]="'assets/MediaPlay.png'" (click)="togglepPlay()"></ami-fab>
+            <ami-fab [size]="'small'" [icon_path]="'assets/MediaNext.png'"></ami-fab>
+        </div>

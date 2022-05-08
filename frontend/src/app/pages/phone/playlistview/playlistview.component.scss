@@ -1,0 +1,204 @@
+@import "https://fonts.googleapis.com/css?family=Pacifico";
+
+@media screen and (max-width: 394px) and (max-height:853px){
+    body{
+         background: #242121;
+     }
+ 
+     h2{
+         position: absolute;
+         left: 11px;
+         top: 0px;
+ 
+         font-family: Pacifico;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 24px;
+         line-height: 42px;
+ 
+         color: #88297E;
+     }
+ 
+     .usr-but{
+         border-radius: 50% !important;
+             width: 33px;
+             height: 33px;
+             position: absolute;
+             left: 87.22%;
+             right: 3.61%;
+             top: 0.78%;
+             bottom: 94.06%;
+ 
+             background: #C4C4C4;
+             background-image: url("../../../../assets/userlogo.png");
+             background-size: 200%;
+             background-repeat: no-repeat;
+             background-position-x: center;
+             background-position-y: center;
+     }
+ 
+     #line{
+         position: absolute;
+         width: 328px;
+         height: 0px;
+         left: 30px;
+         top: 45px;
+ 
+         border: 1px solid #88297E;
+         transform: rotate(0.17deg);
+     }
+ 
+     #logo{
+         position: absolute;
+         width: 70px;
+         height: 70px;
+         left: 155px;
+         top: 82px;
+ 
+         background: white;
+         background-image: url("../../../../assets/pearl.jpg");
+        background-size: 100%;
+         border-radius: 3px;
+     }
+ 
+     #header{
+         position: absolute;
+         width: 80px;
+         height: 37px;
+         left: 160px;
+         top: 162px;
+ 
+         font-family: Arial;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 18px;
+         line-height: 21px;
+ 
+         color: #FFFFFF;
+     }
+ 
+     #line2{
+         position: absolute;
+         width: 328px;
+         height: 0px;
+         left: 30px;
+         top: 190px;
+ 
+         border: 1px solid #88297E;
+         transform: rotate(0.17deg);
+     }
+ 
+     #pl1{
+         position: absolute;
+         width: 328px;
+         height: 50px;
+         left: 30px;
+         top: 200px;
+         color: white;
+         background: transparent;
+         border: 2px solid #88297E;
+         box-sizing: border-box;
+         border-radius: 3px;
+     }
+ 
+     #pl2{
+         position: absolute;
+         width: 328px;
+         height: 50px;
+         left: 30px;
+         top: 250px;
+         color: white;
+         background: transparent;
+         border: 2px solid #88297E;
+         box-sizing: border-box;
+         border-radius: 3px;
+     }
+ 
+     #pl3{
+         color: white;
+         position: absolute;
+         width: 328px;
+         height: 50px;
+         left: 30px;
+         top: 300px;
+ 
+         background: transparent;
+         border: 2px solid #88297E;
+         box-sizing: border-box;
+         border-radius: 3p
+     }
+ 
+     #pl4{
+         color: white;
+         position: absolute;
+         width: 328px;
+         height: 50px;
+         left: 30px;
+         top: 349px;
+ 
+         background: transparent;
+         border: 2px solid #88297E;
+         box-sizing: border-box;
+         border-radius: 3px;
+     }
+ 
+     #pl5{
+         color: white;
+         position: absolute;
+         width: 328px;
+         height: 50px;
+         left: 30px;
+         top: 400px;
+ 
+         background: transparent;
+         border: 2px solid #88297E;
+         box-sizing: border-box;
+         border-radius: 3px;
+     }
+ 
+     #pl6{
+         color: white;
+         position: absolute;
+         width: 328px;
+         height: 50px;
+         left: 30px;
+         top: 451px;
+ 
+         background: transparent;
+         border: 2px solid #88297E;
+         box-sizing: border-box;
+         border-radius: 3px;
+     }
+ 
+     #pl7{
+         color: white;
+         position: absolute;
+         width: 328px;
+         height: 50px;
+         left: 30px;
+         top: 503px;
+ 
+         background: transparent;
+         border: 2px solid #88297E;
+         box-sizing: border-box;
+         border-radius: 3px;
+     }
+ 
+     #pl8{
+         color: white;
+         position: absolute;
+         width: 328px;
+         height: 50px;
+         left: 30px;
+         top: 555px;
+ 
+         background: transparent;
+         border: 2px solid #88297E;
+         box-sizing: border-box;
+         border-radius: 3px;
+     }
+
+     #slider{
+         padding-top: 625px;
+     }
+ }

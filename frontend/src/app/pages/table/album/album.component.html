@@ -1,0 +1,40 @@
+<div class="album-drag" cdkDrag cdkDragBoundary=".table-content">
+    <div class="header">
+        <!-- Menu -->
+        <div cdkDragHandle class="d-flx">
+            <ami-image-button class="flx-slf-xstart" [icon_path]="'assets/MediaBack.png'" [size]="'default'" (click)="openPlayer()"></ami-image-button>
+        </div>
+        <div class="scene">
+            <canvas style="border-radius: 10px;" #sceneCanvas>
+                
+            </canvas>
+
+            <div *ngIf="this.overlayEnabled" class="album-name bk bkl">
+                <h6 style="text-align: center;">{{this.getShownCardBasicInfo()}}</h6>
+            </div>
+
+
+            <div *ngIf="this.overlayEnabled" class="controls d-flx flx-dir-col album-overlay">
+
+                <!-- Spacer -->
+                <div *ngIf="!this.overlayTrackViewEnabled" (click)="onClickOverlay()" class="d-flx empty flx-dir-col flx-lgnx-center flx-lgny-center" style="height: 50%;">
+                </div>
+
+                <div *ngIf="this.overlayTrackViewEnabled" class="d-flx flx-dir-col flx-lgnx-center flx-lgny-center flx-stretch bk bkl album-tracks">
+                    <song-button 
+                        *ngFor="let track of this.getShownCardInfo().tracks;let trackNo=index;" 
+                        
+                        name="{{track.name}}" 
+                        tag="{{trackNo + 1}}">
+                    </song-button>
+                </div>
+                
+                <div class="d-flx d-flx-row flx-lgnx-center flx-lgny-center flx-slf-end bk overlay-controls">
+                    <ami-fab [icon_path]="'assets/MediaBack.png'" [size]="'small'" (click)="backOverlay()"></ami-fab>
+                    <ami-fab [icon_path]="'assets/MediaAdd_2.png'" [size]="'small'" (click)="playButton()"></ami-fab>
+                    <ami-fab [icon_path]="'assets/MediaFavorite.png'" [size]="'small'" ></ami-fab>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+<h2>Beebop</h2>
+<button class="usr-but"></button>
+<span id="line"></span>
+
+    <p id="u">Current Users</p>
+    <span id="line1"></span>
+    <p id="u1">User 1</p>
+    <button id="edit1" routerLink="/phone/Edituser"></button>
+    <span id="line2"></span>
+    <p id="u2">User 2</p>
+    <button id="edit2" routerLink="/phone/Edituser"></button>
+    <span id="line3"></span>
+    <p id="u3">User 3</p>
+    <button id="edit3" routerLink="/phone/Edituser"></button>
+
+    <div id="slider">
+        <ami-slider></ami-slider>
+    </div>
+    <div id="ctrl" class="controls d-flx d-flx-row flx-lgnx-center flx-lgny-center">
+        <ami-fab class="flipy" [size]="'small'" [icon_path]="'assets/MediaNext.png'"></ami-fab>
+        <ami-fab [icon_path]="'assets/MediaPlay.png'" (click)="togglepPlay()"></ami-fab>
+        <ami-fab [size]="'small'" [icon_path]="'assets/MediaNext.png'"></ami-fab>
+    </div>

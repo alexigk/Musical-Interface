@@ -1,0 +1,38 @@
+div {
+    background: inherit;
+}
+
+img.default {
+    display: block;
+    width: 5em;
+    border-radius: 5em;
+    padding: 5px;
+    border: 2px solid black;
+    box-shadow: 0 0 5px black;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-top: 0px;
+}
+
+img.small {
+    display: block;
+    width: 5em;
+    border-radius: 5em;
+    padding: 10px;
+    border: 2px solid black;
+    box-shadow: 0 0 5px black;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+
+}
+
+img.very-small {
+    display: block;
+    width: 2em;
+    border-radius: 5em;
+    padding: 5px;
+    // border: 1px solid black;
+    box-shadow: 0 0 5px black;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}

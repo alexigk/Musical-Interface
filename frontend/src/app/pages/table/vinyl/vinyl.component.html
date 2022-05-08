@@ -1,0 +1,8 @@
+<div>
+    <img
+    ngModel
+    ngDefaultControl
+    (click)="togglePlaying()"
+    [@ngStyle]="{'animation-play-state': isPlaying ? 'running' : 'paused' }"
+    src="{{this.albumSrc}}">
+</div>

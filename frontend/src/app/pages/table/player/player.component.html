@@ -1,0 +1,22 @@
+<div *ngIf="this.isViewCurrent" class="player-drag" cdkDrag cdkDragBoundary=".table-content">
+    <div ngModel ngDefaultControl [@ngStyle]="{transform: getOriRot()}" class="player-main d-flx flx-dir-col" >
+        <div class="header">
+            <!-- Menu -->
+            <div>
+                <ami-fab [icon_path]="'assets/Album.png'" [size]="'very-small'" (click)="openAlbum()"></ami-fab>
+            </div>
+            <img src="{{this.albumPath}}" cdkDragHandle>
+        </div>
+        <div>
+            <ami-slider></ami-slider>
+        </div>
+        <div class="controls d-flx d-flx-row flx-lgnx-center flx-lgny-center">
+            <ami-fab class="flipy" [size]="'small'" [icon_path]="'assets/MediaNext.png'" ></ami-fab>
+            <ami-fab icon_path="{{ this.isPlaying ? 'assets/MediaPause.png' : 'assets/MediaPlay.png'}} " (click)="this.togglePlay()"></ami-fab>
+            <ami-fab [size]="'small'" [icon_path]="'assets/MediaNext.png'"></ami-fab>
+        </div>
+    </div>
+
+</div>
+
+<ami-fullstack-album *ngIf="!this.isViewCurrent" (playerEmitter)="this.openAlbum()"></ami-fullstack-album>

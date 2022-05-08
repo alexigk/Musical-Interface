@@ -1,0 +1,250 @@
+@import "https://fonts.googleapis.com/css?family=Pacifico";
+
+@media screen and (max-width: 394px) and (max-height:853px){
+    h2{
+        position: absolute;
+        width: 82px;
+        height: 41px;
+        left: 10px;
+        top: -2px;
+        font-family: 'Pacifico';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 42px;
+        color:#88297E;
+    }
+
+    .usr-but{
+        border-radius: 50% !important;
+        width: 33px;
+        height: 33px;
+        position: absolute;
+        left: 87.22%;
+        right: 3.61%;
+        top: 0.78%;
+        bottom: 94.06%;
+
+        background: #C4C4C4;
+        background-image: url("../../../../assets/userlogo.png");
+             background-size: 200%;
+             background-repeat: no-repeat;
+             background-position-x: center;
+             background-position-y: center;
+    }
+
+    #line{
+        position: absolute;
+        width: 328px;
+        height: 0px;
+        left: 25px;
+        top: 45px;
+
+        border: 1px solid #88297E;
+        transform: rotate(0.17deg);
+    }
+
+   
+    .options{
+        padding-top: 60px;
+       
+    }
+
+    button{
+        border: none;
+    }
+
+    .accs{
+        position: static;
+        width: 394px;
+        height: 34px;
+        right: 0px;
+        top: 10px;
+
+        background: #202020;
+        color: white;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 1px 0px;
+    }
+
+    .adms{
+        position: static;
+        width: 394px;
+        height: 34px;
+        left: 0px;
+        top: 45px;
+
+        color: white;
+        background: #202020;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 1px 0px;
+    }
+
+    .pl{
+        position: static;
+    width: 394px;
+    height: 34px;
+    left: 0px;
+    top: 80px;
+    color: white;
+
+    background: #202020;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 1px 0px;
+    }
+
+    .albs{
+        position: static;
+    width: 394px;
+    height: 34px;
+    left: 0px;
+    top: 115px;
+
+    background: #202020;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 1px 0px;
+    color: white;
+    }
+
+    .cu{
+        position: static;
+    width: 394px;
+    height: 34px;
+    left: 0px;
+    top: 150px;
+
+    background: #202020;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    margin: 1px 0px;
+    color: white;
+    }
+
+    .ap{
+        position: static;
+    width: 394px;
+    height: 34px;
+    left: 0px;
+    top: 185px;
+    color: white;
+    background: #202020;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+    margin: 1px 0px;
+    }
+
+    .atv{
+        position: static;
+    width: 394px;
+    height: 34px;
+    left: 0px;
+    top: 220px;
+
+    background: #202020;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 6;
+    flex-grow: 0;
+    margin: 1px 0px;
+    color: white;
+    }
+
+    #quicksettings{
+        width: 394px;
+        height: 219px;
+    }
+
+    p{
+        position: absolute;
+        width: 115px;
+        height: 24px;
+        white-space: nowrap;
+        left: 30px;
+        padding-top: 15px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 23px;
+        line-height: 24px;
+    }
+
+    #hg{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 30px;
+        top: 370px;
+        color: whitesmoke;
+        background: #88297E;
+        box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.37);
+        border-radius: 24px;
+    }
+
+    #vol{
+        position: absolute;
+        width: 180px;
+        height: 100px;
+        left: 150px;
+        top: 370px;
+        color: whitesmoke;
+        background: #88297E;
+        box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 16px;
+    }
+
+    #ag{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 150px;
+        top: 490px;
+        color: whitesmoke;
+        background: #242424;
+        box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.37);
+        border-radius: 24px
+    }
+
+    #vc{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 30px;
+        top: 490px;
+        color: whitesmoke;
+        background: #88297E;
+        box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.37);
+        border-radius: 24px;
+    }
+
+    #slider{
+        padding-top: 100px;
+    }
+}

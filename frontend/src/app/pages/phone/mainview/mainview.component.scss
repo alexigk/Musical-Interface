@@ -1,0 +1,162 @@
+@import "https://fonts.googleapis.com/css?family=Pacifico";
+
+@media screen and (max-width: 394px) and (max-height:853px){
+    body{
+         background: #242121;
+     }
+ 
+     h2{
+         position: absolute;
+         left: 11px;
+         top: 0px;
+ 
+         font-family: Pacifico;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 24px;
+         line-height: 42px;
+ 
+         color: #88297E;
+     }
+ 
+     .usr-but{
+         border-radius: 50% !important;
+             width: 33px;
+             height: 33px;
+             position: absolute;
+             left: 87.22%;
+             right: 3.61%;
+             top: 0.78%;
+             bottom: 94.06%;
+ 
+             background: #C4C4C4;
+             background-image: url("../../../../assets/userlogo.png");
+             background-size: 200%;
+             background-repeat: no-repeat;
+             background-position-x: center;
+             background-position-y: center;
+     }
+ 
+     #line{
+         position: absolute;
+         width: 328px;
+         height: 0px;
+         left: 25px;
+         top: 45px;
+ 
+         border: 1px solid #88297E;
+         transform: rotate(0.17deg);
+     }
+
+     #playlist{
+        position: absolute;
+        width: 150px;
+        height: 35px;
+        left: 120px;
+        top: 62px;
+        color: white;
+        background: rgba(116, 106, 106, 0.44);
+        border: 2px solid #88297E;
+        box-sizing: border-box;
+        border-radius: 3px;
+     }
+
+     #logo{
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        left: 120px;
+        top: 202px;
+        background: white;
+        background-image: url("../../../../assets/pearl.jpg");
+        background-size: 100%;
+        border-radius: 3px;
+
+     }
+
+     #songname{
+        position: absolute;
+        width: 131px;
+        height: 21px;
+        left: 130px;
+        top: 368px;
+        
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height */
+        white-space: nowrap;
+        
+        color: #FFFFFF;
+     }
+
+     #songname2{
+        position: absolute;
+        width: 176px;
+        height: 21px;
+        left: 110px;
+        top: 389px;
+        
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height */
+        white-space: nowrap;
+        
+        color: #FFFFFF;
+     }
+
+     #love{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 80px;
+        top: 460px;
+        border-radius: 50%;
+        background: transparent;
+        background-image: url("../../../../assets/MediaFavorite_1.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.37);
+        border-radius: 430px
+     }
+
+     #plus{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 170px;
+        top: 460px;
+        background: transparent;
+        background-image: url("../../../../assets/MediaAdd_2.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.37);
+        border-radius: 430px;
+     }
+
+     #dots{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 260px;
+        top: 460px;
+        
+        background: transparent;
+        background-image: url("../../../../assets/options.png");
+        background-size: 80%;
+        background-position-y: 18px;
+        background-position-x: 5px;
+        background-repeat: no-repeat;
+        box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.8);
+        border-radius: 430px
+     }
+
+     #slider{
+        padding-top: 625px;
+     }
+}

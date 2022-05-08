@@ -1,0 +1,84 @@
+<div class="board-content">
+    <div class="rightside">
+        <p id="lrcs">Lyrics</p>
+        <div id="lyrics">Oh, lovely drakes fill the valley
+            with no snakes yadda yadda band of corn flakes
+        </div>
+        <p id="inf">Info</p>
+        <div id="band"></div>
+        <div id="info">A very bad band name is a jazz swing band
+            created by Jules Bandguy, originally based in sweden,Florida
+        </div>
+        <span id="line1"></span>
+    </div>
+    <div class="center">
+        <p id="qu">Queue</p>
+        <h4 
+            *ngFor="let track of tracks;let trackNo=index;"
+            id="{{'s0' + (trackNo + 1).toString()}}"
+
+            class="{{ (track.album == this.curAlbumIndex) && (track.track == this.curTrackIndex) ? 'current-song' : 'non-current-song' }}"
+            >{{getSongInfo(track.album, track.track)}}</h4>
+        <!-- <h4 id="s01">01 &nbsp;&nbsp;&nbsp;&nbsp; A long song name - band band band</h4>
+        <h4 id="s02">02 &nbsp;&nbsp;&nbsp;&nbsp; A long song name - band band band</h4>
+        <h4 id="s03">03 &nbsp;&nbsp;&nbsp;&nbsp; A long song name - band band band</h4>
+        <h4 id="s04">04 &nbsp;&nbsp;&nbsp;&nbsp; A long song name - band band band</h4>
+        <h4 id="s05">05 &nbsp;&nbsp;&nbsp;&nbsp; A long song name - band band band</h4>
+        <h4 id="s06">06 &nbsp;&nbsp;&nbsp;&nbsp; A long song name - band band band</h4>
+        <h4 id="s07">07 &nbsp;&nbsp;&nbsp;&nbsp; A long song name - band band band</h4>
+        <h4 id="s08">08 &nbsp;&nbsp;&nbsp;&nbsp; A long song name - band band band</h4> -->
+        <span id="line2"></span>
+    </div>
+    <div class="leftside">
+        <p id="fa">Friend Activity</p>
+        <div id="f1">
+            <div id="pic1" style="background-image: url(../../../assets/userlogo.png);"></div>
+            <h4 id="n1">Nick Nackatori</h4>
+            <p id="song1">In the Valley of the corn flakes</p>
+            <p id="band1">A not so good name</p>
+            <div id="gr1" style="background-image: url(../../../assets/playing.png);"></div>
+            <span id="line3"></span>
+        </div>
+        <div id="f2">
+            <div id="pic2" style="background-image: url(../../../assets/userlogo.png);"></div>
+            <h4 id="n2">Nick Nackatori</h4>
+            <p id="song2">In the Valley of the corn flakes</p>
+            <p id="band2">A not so good name</p>
+            <div id="gr2" style="background-image: url(../../../assets/playing.png);"></div>
+            <span id="line4"></span>
+        </div>
+        <div id="f3">
+            <div id="pic3" style="background-image: url(../../../assets/userlogo.png);"></div>
+            <h4 id="n3">Nick Nackatori</h4>
+            <p id="song3">In the Valley of the corn flakes</p>
+            <p id="band3">A not so good name</p>
+            <div id="gr3" style="background-image: url(../../../assets/playing.png);"></div>
+        </div>
+    </div>
+
+   <!-- <div class="b-elem board-queue d-flx flx-dir-col">
+        <h2>Queue</h2>
+        <div class="queue-cnt d-flx flx-dir-col">
+            <div class="queue-elem">
+                <h4>Song 1</h4>
+            </div>
+            <hr class="solid">
+            <div class="queue-elem">
+                <h4>Song 2</h4>
+            </div>
+            <hr class="solid">
+            <div class="queue-elem queue-elem-sel">
+                <h4>Song 3</h4>
+            </div>
+            <hr class="solid">
+            <div class="queue-elem">
+                <h4>Song 4</h4>
+            </div>
+            <hr class="solid">
+        </div>
+    </div>
+
+    <div class="b-elem board-right">
+        right
+    </div>-->
+</div>
